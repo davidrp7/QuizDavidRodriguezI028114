@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.aula7.quizdavidrodriguezi028114.MainActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -190,44 +191,201 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-
-                >
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:orientation="horizontal"
                     android:weightSum="1">
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="0.8">
+                        android:layout_weight="0.8"
+                        >
 
                         <TextView
-                            android:id="@+id/I1"
+                            android:id="@+id/I2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mercado Libre"/>
+                            android:text="Mercado Libre"
+                            android:textStyle="bold"/>
 
                         <TextView
-                            android:layout_below="@id/I1"
+                            android:layout_below="@id/I2"
                             android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:text="15 - 03 - 2018"/>
 
                     </RelativeLayout>
 
                     <TextView
+                        android:layout_marginTop="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="-57.30"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
                         android:textSize="20sp"/>
 
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        >
+
+                        <TextView
+                            android:id="@+id/I3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mercado Libre"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_below="@id/I3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15 - 03 - 2018"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-57.30"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        >
+
+                        <TextView
+                            android:id="@+id/I4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mercado Libre"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_below="@id/I4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15 - 03 - 2018"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-57.30"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        >
+
+                        <TextView
+                            android:id="@+id/I5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mercado Libre"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_below="@id/I5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15 - 03 - 2018"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-57.30"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        >
+
+                        <TextView
+                            android:id="@+id/I6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mercado Libre"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_below="@id/I6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15 - 03 - 2018"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-57.30"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+
             </LinearLayout>
+
 
         </ScrollView>
 
